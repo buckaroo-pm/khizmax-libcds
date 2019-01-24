@@ -1,0 +1,5 @@
+print 'BUCKAROO_DEPS is deprecated; please use buckaroo_macros.bzl' 
+
+BUCKAROO_DEPS = [
+  'buckaroo.github.buckaroo-pm.google-googletest//:googletest'
+]

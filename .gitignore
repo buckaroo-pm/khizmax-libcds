@@ -19,3 +19,10 @@
 /.cproject
 /.settings/
 /tools/change_license.pl
+
+buck-out
+.buckd
+buckaroo
+buckaroo_macros.bzl
+.buckconfig.d
+.buckconfig.local
