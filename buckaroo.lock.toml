@@ -1,10 +1,9 @@
-manifest = "cdb12821ae5a66b870461f9fc47e565107a26844a842b54e803aa59a3d174fe7"
+manifest = "1f336c0b3353be467eb2f16ed495c5c3d02f9558970e88c80fdc47ef5f166480"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/google-googletest"
 target = "//:googletest"
 
-[[lock]]
-name = "github.com/buckaroo-pm/google-googletest"
-version = "branch=master"
+[lock."github.com/buckaroo-pm/google-googletest"]
+versions = [ "branch=master" ]
 revision = "cb8d2c1a2fcd344953e6c129a1a699a2c230551d"
